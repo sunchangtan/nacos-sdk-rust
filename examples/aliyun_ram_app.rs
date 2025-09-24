@@ -1,7 +1,12 @@
+#[cfg(feature = "auth-by-aliyun")]
 use nacos_sdk::api::config::ConfigServiceBuilder;
+#[cfg(feature = "auth-by-aliyun")]
 use nacos_sdk::api::naming::{NamingServiceBuilder, ServiceInstance};
+#[cfg(feature = "auth-by-aliyun")]
 use nacos_sdk::api::props::ClientProps;
+#[cfg(feature = "auth-by-aliyun")]
 use std::time::Duration;
+#[cfg(feature = "auth-by-aliyun")]
 use tokio::time::sleep;
 
 /// Aliyun Ram plugin support

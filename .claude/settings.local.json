@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo check:*)",
+      "Bash(cargo test:*)",
+      "Bash(cargo:*)",
+      "Bash(rustc:*)",
+      "Bash(./generate_proto)",
+      "Read(//private/tmp/**)",
+      "Read(//tmp/proto_gen/**)",
+      "Bash(brew install:*)",
+      "Read(//tmp/proto_gen_13/**)",
+      "Read(//tmp/proto_gen_14/**)",
+      "Bash(grep:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
